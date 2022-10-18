@@ -34,8 +34,6 @@ def find_element_with_text_and_click(elements, text: str):
         if element.text == text:
             element.click()
             break
-        else:
-            print(f"cannot found {text} in elements")
 
 
 def wait_element_by_selector_and_click(driver: webdriver, element_selector: str):
