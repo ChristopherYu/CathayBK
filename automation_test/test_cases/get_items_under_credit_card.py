@@ -2,7 +2,7 @@ from utilies import get_browser_agent, find_element_with_text_and_click
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
-from classes import ConfigSettings
+from automation_test.classes import ConfigSettings
 
 # initial
 Settings = ConfigSettings.EnvSettings("Chrome")
